@@ -6,12 +6,13 @@ public class UserWS {
     private User user;
 
     public User getData(){
-        User user = new User();
+        user = new User();
         user.setEmail("paco@gmail.com");
         user.setPassword("123");
         return user;
     }
     public User getUser(String email, String password ){
+        user = new User();
         user.setEmail(email);
         user.setPassword(password);
         return user;

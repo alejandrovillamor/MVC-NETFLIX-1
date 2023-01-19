@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
      private UserWS modeluser;
      private Button btnbutton;
      private  EditText editTextemail;
-    private  EditText editTextPassword;
+     private  EditText editTextPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
